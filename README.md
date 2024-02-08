@@ -13,7 +13,6 @@ Then, `cp ./dist/* ../doc/` which should copy the static site pages to the Docke
 
 Look at `RunServer.sh` and `BuildServer.sh`; you need to prefix `bash ` to run those scripts.
 
-
 ## Original README
 
 A starter kit for emergency information websites. (WIP) ([Demo Site](https://emergency-site.netlify.app/))
