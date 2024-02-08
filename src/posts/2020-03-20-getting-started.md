@@ -3,6 +3,10 @@ title: "How to set up an emergency website"
 date: 2020-03-20T18:00
 ---
 
+_github.com/kristofer_ forked this site as place to get a quick website up to put behind **zipliner.org**
+
+See [github.com/maxboeck/emergency-site](https://github.com/maxboeck/emergency-site) for more...
+
 To publish a website with this template, there are two options, depending on your technical skillset. Choose which one describes you best:
 
 * [I'm not a developer](#no-code-setup), I just want to set up a website

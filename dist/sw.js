@@ -36,19 +36,19 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "ea876d640b79d4d9501a68f59e73bcd0"
+    "revision": "ef42fc8620d663a99f72f71604b65131"
   },
   {
     "url": "posts/2020-03-19-about-this/index.html",
-    "revision": "a714babea2c9a1202b18c78ea4ffcc5a"
+    "revision": "34cecc943187e4ed7a0ad9351a743da2"
   },
   {
     "url": "posts/2020-03-20-getting-started/index.html",
-    "revision": "4d58d5b82dd0eb56de6fe52b3517c985"
+    "revision": "3f1c2c55f92bc95ff8d454c0f7809672"
   },
   {
-    "url": "posts/2020-03-22-example-post/index.html",
-    "revision": "27293be2dd1b45df7bf203286e92ebc8"
+    "url": "posts/2024-02-08-starting-post/index.html",
+    "revision": "2ef525e2cc578d043274a868529ac7cf"
   },
   {
     "url": "static/scripts/offline.js",
