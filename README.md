@@ -1,5 +1,21 @@
 # Zipliner Site Kit
 
+A starter site for ZipLiner.ORG
+
+## Kris Notes
+
+see src/posts for examples of th articles on the front page.
+
+once you have the `dist/` folder generated, do a commit and push. 
+Then login to `xo`, cd to `/home/ubuntu/zipliner`, cd into `zipliner-site` and git pull.
+
+Then, `cp ./dist/* ../doc/` which should copy the static site pages to the Dockerfile's expected place.
+
+Look at `RunServer.sh` and `BuildServer.sh`; you need to prefix `bash ` to run those scripts.
+
+
+## Original README
+
 A starter kit for emergency information websites. (WIP) ([Demo Site](https://emergency-site.netlify.app/))
 
 In case of emergency, many organizations need a quick way to publish critical information. Existing CMS websites are often unable to handle sudden spikes in traffic, and local network infrastructure might be damaged, leaving those affected with poor mobile connections.
