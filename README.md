@@ -1,4 +1,4 @@
-# Emergency Site Kit
+# Zipliner Site Kit
 
 A starter kit for emergency information websites. (WIP) ([Demo Site](https://emergency-site.netlify.app/))
 

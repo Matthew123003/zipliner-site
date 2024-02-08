@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>ZipLiner</title>
+    <subtitle>What does the future of the ZipCode Wilmington community look like?</subtitle>
+    <link href="/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="" rel="alternate" type="text/html"/>
+    
+    <updated>2020-03-22T10:00:00-04:00</updated>
+    
+    <id>/</id>
+        <entry>
+            <title>Crisis information example post</title>
+            <link href="/posts/2020-03-22-example-post/"/>
+            <updated>2020-03-22T10:00:00-04:00</updated>
+            <id>/posts/2020-03-22-example-post/</id>
+            <content type="html"><![CDATA[
+                <p>This is an example of how to publish critical information as posts on this website.</p>
+<h2 id="coronavirus-(covid-19)%3A-what-you-need-to-do">Coronavirus (COVID-19): what you need to do <a class="anchor" href="#coronavirus-(covid-19)%3A-what-you-need-to-do">#</a></h2>
+<ul>
+<li>Stay at home</li>
+<li>Only go outside for food, health reasons or work (but only if you cannot work from home)</li>
+<li>Stay 2 meters (6ft) away from other people</li>
+<li>Wash your hands as soon as you get home</li>
+<li>You can spread the virus even if you don’t have symptoms.</li>
+</ul>
+<h2 id="staying-at-home-and-away-from-others-(social-distancing)">Staying at home and away from others (social distancing) <a class="anchor" href="#staying-at-home-and-away-from-others-(social-distancing)">#</a></h2>
+<p>The single most important action we can all take, in fighting coronavirus, is to stay at home in order to protect the healthcare system and save lives.</p>
+<p>When we reduce our day-to-day contact with other people, we will reduce the spread of the infection. The most important measures are:</p>
+<ol>
+<li>Requiring people to stay at home, except for very limited purposes.</li>
+<li>Closing certain businesses and venues.</li>
+<li>Stopping all gatherings of more than two people in public.</li>
+</ol>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>How to set up an emergency website</title>
+            <link href="/posts/2020-03-20-getting-started/"/>
+            <updated>2020-03-20T14:00:00-04:00</updated>
+            <id>/posts/2020-03-20-getting-started/</id>
+            <content type="html"><![CDATA[
+                <p>To publish a website with this template, there are two options, depending on your technical skillset. Choose which one describes you best:</p>
+<ul>
+<li><a href="#no-code-setup">I’m not a developer</a>, I just want to set up a website</li>
+<li><a href="#advanced-setup">I have basic knowledge</a> of how to use <code>npm</code> and the command line</li>
+</ul>
+<h2 id="no-code-setup">No-Code Setup <a class="anchor" href="#no-code-setup">#</a></h2>
+<p>You don’t need any programming skills to set up a site with this template.<br>
+Following these steps, you can get started without touching any code:</p>
+<ol>
+<li><a href="#get-a-github-account">Get a GitHub account</a> (skip if you have one)</li>
+<li><a href="#get-a-netlify-account">Get a Netlify account</a> (skip if you have one)</li>
+<li><a href="#deploy-this-template">Deploy this template</a></li>
+<li><a href="#configure-your-site">Configure your site</a></li>
+<li><a href="#set-a-domain">Set a domain</a></li>
+<li><a href="#enable-the-content-management-system">Enable CMS</a></li>
+</ol>
+<h3 id="get-a-github-account">Get a Github account <a class="anchor" href="#get-a-github-account">#</a></h3>
+<p>Github is a platform that hosts code. It’s required for this template to work.<br>
+If you have a GitHub account, go ahead and <a href="https://github.com/join">log in</a>. If not, <a href="https://github.com/join">sign up for an account</a>. You will only need an active email address. When prompted, select the “Individual” (free) plan. You can skip the questions about your use of Github and then verify your email address in the last step.</p>
+<h3 id="get-a-netlify-account">Get a Netlify account <a class="anchor" href="#get-a-netlify-account">#</a></h3>
+<p>Netlify is a free service that will provide the servers for your new website.<br>
+If you already have a Netlify account, go ahead and <a href="https://app.netlify.com">log in</a>. If not, <a href="https://app.netlify.com/signup">sign up for an account</a>. (Recommended to sign in with your GitHub account)</p>
+<h3 id="deploy-this-template">Deploy this template <a class="anchor" href="#deploy-this-template">#</a></h3>
+<p>Once these two accounts are set up, go ahead an click the following button to deploy a copy of this template to your Netlify account:</p>
+<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/emergency-site"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a></p>
+<p>It will open a window with instructions:</p>
+<p><img src="/static/images/uploads/netlify-deploy-step1.png" alt="connect to Github"></p>
+<p>Click the button “Connect to Github”. (You should already be logged in, but if you’re not, log in).</p>
+<h3 id="configure-your-site">Configure your site <a class="anchor" href="#configure-your-site">#</a></h3>
+<p>Next, you need to provide a few settings to customize your website. Fill in the fields with your details.</p>
+<p><img src="/static/images/uploads/netlify-deploy-step2.png" alt="set configuration details"></p>
+<p>You can also edit these details later in your Netlify admin.<br>
+These settings are available:</p>
+<table>
+    <thead>
+        <tr><th>Name</th><th>Description</th><th>Example</th><th>Default</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>META_TITLE</code></td>
+            <td>the title of your site</td>
+            <td>COVID-19 Information</td>
+            <td>Emergency Site</td>
+        </tr>
+        <tr>
+            <td><code>META_URL</code></td>
+            <td>the full url of your site</td>
+            <td>https://www.covid19.org</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td><code>META_DESC</code></td>
+            <td>a short description of your site</td>
+            <td>Updates on the current state of the pandemic.</td>
+            <td>An emergency information website.</td>
+        </tr>
+        <tr>
+            <td><code>META_LANG</code></td>
+            <td>the 2-letter <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">language code</a> of your site</td>
+            <td>de</td>
+            <td>en</td>
+        </tr>
+        <tr>
+            <td><code>META_COLOR</code></td>
+            <td>the primary color <a href="https://www.color-hex.com/">hex code</a> (optional)</td>
+            <td>#1D70B8</td>
+            <td>#DB0000</td>
+        </tr>
+        <tr>
+            <td><code>META_EMAIL</code></td>
+            <td>your main contact email (optional)</td>
+            <td>contact@covid19.org</td>
+            <td>N/A</td>
+        </tr> 
+        <tr>
+            <td><code>META_TELEPHONE</code></td>
+            <td>your main contact phone number (optional)</td>
+            <td>+01 23 456 789 00</td>
+            <td>N/A</td>
+        </tr> 
+    </tbody>   
+</table>
+<p>When you’re done, click “Save &amp; Deploy”. It will take about 1-2 minutes afterwards to build your site. You’ll see the message “Site deploy in progress”.</p>
+<p>When the site is published, you’ll see a live green link under the site title.</p>
+<h3 id="set-a-domain">Set a domain <a class="anchor" href="#set-a-domain">#</a></h3>
+<p>You can set a custom domain (like “<a href="http://www.yoursite.com">www.yoursite.com</a>”) in your Netlify site settings. From your site’s main admin page, select Domain Settings:</p>
+<p><img src="/static/images/uploads/netlify-deploy-step3.png" alt="domain settings"></p>
+<p>By default you’ll get a domain like <code>yoursite.netlify.com</code> - to connect a custom one you own, click on “add custom domain”:</p>
+<p><img src="/static/images/uploads/netlify-deploy-step4.png" alt="add custom domain"></p>
+<p>For more information on how to do this, <a href="https://docs.netlify.com/domains-https/custom-domains/">see the Netlify docs</a>.</p>
+<h3 id="enable-the-content-management-system">Enable the Content Management System <a class="anchor" href="#enable-the-content-management-system">#</a></h3>
+<p>The last step is to configure the built-in CMS, so you can edit the site’s content through a dedicated interface.</p>
+<p>The first thing to enable is the Netlify “Identity” service. This allows users to log in with an email address and password. In your main dashboard, select “Identity”, then click on “Enable Identity”.</p>
+<p><img src="/static/images/uploads/netlify-deploy-step5.png" alt="enable identity"></p>
+<p>The CMS needs a way to connect to your Github account. To do this, go to Settings &gt; Identity &gt; Services. You’ll see an option to enable “Git Gateway”. Click the button and follow the instructions from there.</p>
+<p><img src="/static/images/uploads/netlify-deploy-step6.png" alt="enable git gateway"></p>
+<p>After you’re set up, create a new user by inviting yourself via email. You can then log in at <code>www.your-site.com/admin</code>.</p>
+<p>For more information on Netlify CMS, <a href="https://www.netlifycms.org/docs/intro/">see the docs</a>.</p>
+<hr>
+<h2 id="advanced-setup">Advanced Setup <a class="anchor" href="#advanced-setup">#</a></h2>
+<p>If you feel comfortable setting up a local development environment, you can customize this template even further. Things you need to know:</p>
+<ul>
+<li>Installing <code>Node</code> and <code>npm</code> packages on a local machine</li>
+<li>Running basic commands on the command line</li>
+<li>Writing content in markdown files</li>
+<li>Basic understanding of static site generators like <a href="https://11ty.dev">Eleventy</a> (optional)</li>
+</ul>
+<h3 id="getting-started">Getting Started <a class="anchor" href="#getting-started">#</a></h3>
+<p>Clone the repository to your machine and start a new git history:</p>
+<pre><code class="language-bash">$ git clone https://github.com/maxboeck/emergency-site.git
+$ cd emergency-site
+$ rm -rf .git
+$ git init
+</code></pre>
+<p>The build process requires <a href="https://nodejs.org/en/">Node</a> v10 or higher on your system.<br>
+To install the dependencies, run <code>npm install</code> in the root directory, where the <code>package.json</code> file is located. The project is now ready for development.</p>
+<h3 id="local-development">Local Development <a class="anchor" href="#local-development">#</a></h3>
+<p>You can run these on the command line in the root of your project:</p>
+<ul>
+<li><code>npm start</code>: starts development server</li>
+<li><code>npm run build</code>: generates a production build</li>
+<li><code>npm run debug</code>: runs eleventy with debug output</li>
+</ul>
+<p>To customize the site, edit <code>src/data/meta.js</code> with your details, or set the corresponding <a href="#configure-your-site">environment variables</a> in a new <code>.env</code> file in the root folder of the project.</p>
+<h3 id="deployment">Deployment <a class="anchor" href="#deployment">#</a></h3>
+<p>The easiest way to deploy is by forking <a href="https://github.com/maxboeck/emergency-site">this repository</a> and deploying it to Netlify. You can do that by clicking this button:</p>
+<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/emergency-site"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a></p>
+<p>If you don’t want to use Netlify, you can also host the site on your own server or on cloud infrastructure like an S3 Bucket. In that case, set up your own process to host the generated output folder <code>dist</code> at your domain.</p>
+
+            ]]></content>
+        </entry>
+        <entry>
+            <title>About this template</title>
+            <link href="/posts/2020-03-19-about-this/"/>
+            <updated>2020-03-19T12:00:00-04:00</updated>
+            <id>/posts/2020-03-19-about-this/</id>
+            <content type="html"><![CDATA[
+                <p>In case of emergency, many organizations need a quick way to publish critical information. Existing CMS websites are often unable to handle sudden spikes in traffic, and local infrastructure might be damaged, leaving people with poor mobile connections.</p>
+<p>This project aims to enable people to quickly publish a simple website that can withstand large amounts of traffic and will work in extreme conditions. It is built on the <a href="https://en.wikipedia.org/wiki/Rule_of_least_power">rule of least power</a>, using simple technologies for maximum resilience.</p>
+<h2 id="features">Features <a class="anchor" href="#features">#</a></h2>
+<ul>
+<li>Static Files generated by <a href="https://11ty.dev">Eleventy</a></li>
+<li>Optimized for first Roundtrip (&gt; 14KB)</li>
+<li>Basic Styling for Accessibility</li>
+<li>One Request, Inlined CSS</li>
+<li><a href="https://www.netlifycms.org/">Netlify CMS</a> for Content Editing</li>
+<li>Offline Support with Service Worker</li>
+</ul>
+<p><a href="https://github.com/maxboeck/emergency-site">see project on Github</a></p>
+
+            ]]></content>
+        </entry></feed>
