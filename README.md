@@ -4,14 +4,45 @@ A starter site for ZipLiner.ORG
 
 ## Kris Notes
 
-see src/posts for examples of th articles on the front page.
+see src/posts for examples of the articles on the front page.
+
+Scan below to see how to _build a production site._
+
+(from below in this file...)
+### Local Development
+
+To run this locally, you need to install [Node](https://nodejs.org/en/) first.  
+You can run these on the command line in the root of your project:
+
+* `npm install`: to get all the Node junk you need into `node_modules/`
+* `npm start`: starts development server
+* `npm run build`: generates a production build
+* `npm run debug`: runs eleventy with debug output
+
+To customize the site, edit `src/data/meta.js` with your details, or set the corresponding environment variables. Replace the markdown files in `src/posts` with your content.
+
+### And on the Deployment machine
 
 once you have the `dist/` folder generated, do a commit and push. 
+
 Then login to `xo`, cd to `/home/ubuntu/zipliner`, cd into `zipliner-site` and git pull.
 
-Then, `cp ./dist/* ../doc/` which should copy the static site pages to the Dockerfile's expected place.
+There is a `Dockerfile` to build a nginx server with the static pages that the site has. 
+Docker runs this site on port 8100, and there is a `caddy` webserver that performs reverse proxy for all the sites running on `xo`.
 
 Look at `RunServer.sh` and `BuildServer.sh`; you need to prefix `bash ` to run those scripts.
+
+### By the Way...
+
+The production machine runs `caddy` as a reverse proxy. That way all TLS and other stuff just gets handled by caddy.
+
+```
+zipliner.org {
+	reverse_proxy localhost:8100
+}
+```
+
+needs to be in the caddy's `/etc/caddy/Caddyfile`
 
 ## Original README
 
@@ -109,6 +140,7 @@ You can do that by clicking this button:
 To run this locally, you need to install [Node](https://nodejs.org/en/) first.  
 You can run these on the command line in the root of your project:
 
+* `npm install`: to get all the Node junk you need into `node_modules/`
 * `npm start`: starts development server
 * `npm run build`: generates a production build
 * `npm run debug`: runs eleventy with debug output
